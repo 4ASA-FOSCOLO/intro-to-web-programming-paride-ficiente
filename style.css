@@ -1,1 +1,127 @@
-style
+body {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(to bottom, violet, pink);
+    transition: 0.3s;
+}
+
+/* DARK MODE */
+.dark-mode {
+    background: #111;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 80px;
+}
+
+/* NAV */
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+/* CONTAINER */
+.container {
+    padding: 20px;
+}
+
+/* SECTIONS ANIMATION */
+section {
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* IMAGES */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    background: black;
+    color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+/* FIELD */
+.field {
+    background: green;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* QUIZ */
+.quiz {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dark-mode .quiz {
+    background: #333;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
+</style>style
