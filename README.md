@@ -5,7 +5,8 @@
 [LINK](https://4asa-foscolo.github.io/intro-to-web-programming-paride-ficiente/)
 
 # TO DO
-- hero section (presentazione)
-- div e section
-- storia
-- piu dettaaagli
+- sovrapposizione immagini da fixare
+- no sticky navbar
+- (opzionale) footer
+- video nell'hero
+- organizzare contenuti
